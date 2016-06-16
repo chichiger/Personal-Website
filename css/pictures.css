@@ -54,6 +54,9 @@ small {
 .show-description small {
   opacity: 1;
 }
+a {
+  margin: 0 auto;
+}
 /*
 .first{
   background-image: url("https://www.pinterest.com/pin/23925441749732718/");
@@ -71,7 +74,7 @@ small {
   background-image: url("http://www.robertshawaii.com/public/roberts/styles/blog_590x360/public/9.14SweetMochi.jpg?itok=bFG8qRQU");
 }
 */
-.price {
+.location {
   float: right;
 }
 @media (max-width: 500px) {
