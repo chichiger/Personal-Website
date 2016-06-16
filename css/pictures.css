@@ -65,7 +65,11 @@ div img {
 }
 
 .first{
-   
+   width: 500px;
+  height: 300px;
+  overflow: hidden;
+  border: 3px double #000;
+  white-space: nowrap;
 }
 .second{
 
