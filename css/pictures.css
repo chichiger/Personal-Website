@@ -54,7 +54,7 @@ small {
 .show-description small {
   opacity: 1;
 }
-
+/*
 .first{
   background-image: url("https://www.pinterest.com/pin/23925441749732718/");
 }
@@ -70,6 +70,7 @@ small {
 .fourth{
   background-image: url("http://www.robertshawaii.com/public/roberts/styles/blog_590x360/public/9.14SweetMochi.jpg?itok=bFG8qRQU");
 }
+*/
 .price {
   float: right;
 }
