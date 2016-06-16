@@ -1,3 +1,10 @@
+   header {
+      text-align: center;
+      background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/beach-wallpaper-3.jpg");
+      background-size: cover;
+      color: black;
+    }
+  
   body {
       text-align: center;
       background: BlanchedAlmond;
