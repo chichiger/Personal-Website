@@ -19,6 +19,13 @@ h1 {
   color: black;
   margin: 60px 0 0 0;
 }
+h2 {
+  text-align: center;
+  color: black;
+  margin: 0px 0 70px 0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30;
+}
 
 p {
   color: rgba(255,255,255,1);
