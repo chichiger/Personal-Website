@@ -2,35 +2,56 @@
 <head>
   <link href="/normalize.css" rel="stylesheet">
   <!-- link to main stylesheet -->
-  <link rel="stylesheet" type="text/css" href="/css/main.css">
-  <title>Chichiger Shyy</title>
-  <link rel="icon" href="https://cutekawaiiresources.files.wordpress.com/2013/03/rilakkuma1.jpg">
-<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/css/pictures.css">
+
+  <script src="/assets/jquery.js"></script>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/2/22/Kirby_Wii.png">
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   
 </head>
 
 <body>
   <header>
    <img src="http://alwaysphotographing.com/cms/wp-content/uploads/2014/04/BostonSkyline_MicrosoftICE.jpg" alt= "Boston" height = "200" width= "500">
-   <h1>Chichiger's Website</h1>
-    <ul>
-        
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Pictures</a></li>
-      <li><a href="#">Links</a></li>
-    </ul>
+   <h1>Pictures</h1>
   </header>
-  <p><strong>Hi! I'm Chichiger. Have a good day!</strong></p>
-  <p><strong>Subscribe below for updates </strong></p>
-  <input type="email" placeholder="Your email">
-  <input type="submit" onclick="return confirm('Are you sure?')" />
+  <h2>Austin,TX</h2>
+<div class="first">
+  <p>Strawberry Cheesecake <span class="price">$7</span><br />
+  <small>Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest layer, consists of a mixture of soft, fresh cheese (typically cream cheese or ricotta), eggs, and sugar; if there is a bottom layer it often consists of a crust or base made from crushed cookies  </small></p>
+</div>
 
+<div class="second">
+  <p>Macaroons <span class="price">$3</span><br />
+  <small>A macaroon is a type of small circular cake, typically made from ground almonds, coconut, and/or other nuts or even potato, with sugar, egg white, and sometimes flavorings, food coloring, glace cherries, jam and/or a chocolate coating.</small></p>
+</div>
+
+<div class="third">
+  <p>Hazelnut Latte <span class="price">$4</span><br />
+  <small>A latte is a coffee drink made with espresso and steamed milk. The term as used in English is a shortened form of the Italian caffè latte, caffelatte or caffellatte, which means "milk coffee.</small></p>
+</div>
+  
+<div class="dessert">
+  <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+</div>
+
+<div class="fourth">
+  <p>Mochi <span class="price">$2</span><br />
+  <small>Mochi is Japanese rice cake made of mochigome, a short-grain japonica glutinous rice. The rice is pounded into paste and molded into the desired shape. </small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
 
 </body>
 
-<p>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=chichiger%40gmail.com&amp;color=%23691426&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
-</p>
-     
+
+
+</body>
 
 </html> 
