@@ -56,14 +56,18 @@ small {
 }
 a {
   margin: 0 auto;
+  position: absolute;
 }
-/*
+
 .first{
-  background-image: url("https://www.pinterest.com/pin/23925441749732718/");
+   
 }
 .second{
-  background-image: url("https://picasaweb.google.com/lh/photo/Je_L6KXOHladXJ9i2GvWutMTjNZETYmyPJy0liipFm0?feat=directlink");
+  p {
+    position: aboslute;
+  }
 }
+/*
 .third{
   background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
 }
