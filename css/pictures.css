@@ -56,7 +56,8 @@ small {
 .show-description small {
   opacity: 1;
 }
-a {
+div a {
+  display: inline-block;
   margin: 0 auto;
   position: relative;
 }
