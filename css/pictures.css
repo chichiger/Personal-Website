@@ -6,7 +6,7 @@ body {
 }
 div {
   height: 400px;
-  width: 510px;
+  width: 500px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
@@ -56,8 +56,10 @@ small {
 .show-description small {
   opacity: 1;
 }
-div a {
+div img {
   display: inline-block;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
   position: relative;
 }
