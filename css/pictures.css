@@ -28,6 +28,9 @@ h2 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 30;
 }
+th, td {
+    padding: 5px;
+}
 
 p {
   color: rgba(255,255,255,1);
