@@ -58,6 +58,11 @@ div img {
 .int img{
   float: left;
 }
+.mid img{
+  float: left;
+  position: relative;
+  left: 50%;
+}
 
 .first{
   width: 300px;
