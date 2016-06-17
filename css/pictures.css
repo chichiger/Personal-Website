@@ -55,6 +55,9 @@ div img {
   margin: 0 auto;
   position: relative;
 }
+.int img{
+  float: left;
+}
 
 .first{
   width: 300px;
