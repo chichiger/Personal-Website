@@ -31,6 +31,9 @@ h2 {
 th, td {
     padding: 5px;
 }
+th {
+  text-align: left;
+}
 
 p {
   color: rgba(255,255,255,1);
