@@ -28,6 +28,13 @@ h2 {
   font-family: 'Shadows Into Light', cursive;
   font-size: 40;
 }
+h3 {
+  text-align: center;
+  color: black;
+  margin: 0px 0 10px 0;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30;
+}
 th, td {
     padding: 5px;
 }
