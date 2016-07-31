@@ -70,27 +70,13 @@ div img {
 }
 
 
-.first{
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  border: 3px double #000;
-  white-space: nowrap;
+input[type=submit] {
+    display: inline;
+    padding: 12px 20px;
+    color: MediumTurquoise;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
-.second{
-
-}
-/*
-.third{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
-}
-.dessert{
-  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
-}
-.fourth{
-  background-image: url("http://www.robertshawaii.com/public/roberts/styles/blog_590x360/public/9.14SweetMochi.jpg?itok=bFG8qRQU");
-}
-*/
 .location {
   float: right;
 }
