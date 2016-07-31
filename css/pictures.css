@@ -72,9 +72,10 @@ div img {
 
 input[type=submit] {
     display: inline;
-    padding: 20px;
+    padding: 12px 20px;
     color: MediumTurquoise;
-    margin: 0;
+    margin: 8px 0;
+    position: relative;
     box-sizing: border-box;
 }
 .location {
