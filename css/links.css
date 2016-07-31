@@ -18,6 +18,9 @@
       font-size: 22px;
       display: center;
     }
+    h2 {
+       font-size:25px;
+    }
     input {
       border: 0;
       padding: 10px;
